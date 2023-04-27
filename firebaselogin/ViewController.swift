@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FirebaseAuth
+//import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -21,15 +21,15 @@ class ViewController: UIViewController {
     }
     
     func login(email:String, password:String){
-        Auth.auth().createUser(withEmail: (email), password: (password)) { (result, error) in
-                   if let _eror = error {
-                       //something bad happning
-                       print(_eror.localizedDescription )
-                   }else{
-                       //user registered successfully
-                       print(result ?? "")
-                   }
-                }
+//        Auth.auth().createUser(withEmail: (email), password: (password)) { (result, error) in
+//                   if let _eror = error {
+//                       //something bad happning
+//                       print(_eror.localizedDescription )
+//                   }else{
+//                       //user registered successfully
+//                       print(result ?? "")
+//                   }
+//                }
     }
     
     override func viewDidLoad() {
