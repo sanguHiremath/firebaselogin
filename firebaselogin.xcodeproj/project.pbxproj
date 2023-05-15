@@ -20,6 +20,7 @@
 		FA32114F29F795C300120EF2 /* firebaseloginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32114E29F795C300120EF2 /* firebaseloginUITests.swift */; };
 		FA32115129F795C300120EF2 /* firebaseloginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32115029F795C300120EF2 /* firebaseloginUITestsLaunchTests.swift */; };
 		FA32115E29F7963100120EF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA32115D29F7963100120EF2 /* GoogleService-Info.plist */; };
+		FAE86BE22A125C5C000B6910 /* loginmodule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE86BE12A125C5C000B6910 /* loginmodule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		FA32114E29F795C300120EF2 /* firebaseloginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseloginUITests.swift; sourceTree = "<group>"; };
 		FA32115029F795C300120EF2 /* firebaseloginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseloginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA32115D29F7963100120EF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAE86BE12A125C5C000B6910 /* loginmodule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginmodule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				FA32115D29F7963100120EF2 /* GoogleService-Info.plist */,
 				FA32113829F795C200120EF2 /* LaunchScreen.storyboard */,
 				FA32113B29F795C200120EF2 /* Info.plist */,
+				FAE86BE12A125C5C000B6910 /* loginmodule.swift */,
 			);
 			path = firebaselogin;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				FA32113229F795C000120EF2 /* ViewController.swift in Sources */,
 				FA32112E29F795C000120EF2 /* AppDelegate.swift in Sources */,
 				FA32113029F795C000120EF2 /* SceneDelegate.swift in Sources */,
+				FAE86BE22A125C5C000B6910 /* loginmodule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
